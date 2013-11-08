@@ -10,7 +10,7 @@ import java.awt.Graphics2D;
  *
  * @author Talonos
  */
-public interface ViewRefresher
+public interface ViewRefresher 
 {
     void refreshView(Graphics2D g2d);
 }

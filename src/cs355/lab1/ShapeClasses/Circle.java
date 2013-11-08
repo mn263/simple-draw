@@ -9,20 +9,20 @@ import cs355.lab1.Shape;
  */
 public class Circle extends Shape {
 
-    public Circle(double radius, double x, double y) {
-        super.setCenter(x, y);
-        super.setHeight(radius*2);
-        super.setWidth(radius*2);
-        super.setSelectedShape(ShapeEnum.CIRCLE);
-    }
+	public Circle(double radius, double x, double y) {
+		super.setCenter(x, y);
+		super.setHeight(radius * 2);
+		super.setWidth(radius * 2);
+		super.setSelectedShape(ShapeEnum.CIRCLE);
+	}
 
-    public void setRadius(double radius) {
-        super.setHeight(radius*2);
-        super.setWidth(radius*2);
-    }
+	public void setRadius(double radius) {
+		super.setHeight(radius * 2);
+		super.setWidth(radius * 2);
+	}
 
 	public double getRadius() {
-    	assert(super.getHeight() == super.getWidth());
+		assert (super.getHeight() == super.getWidth());
 		return super.getHeight();
 	}
 }

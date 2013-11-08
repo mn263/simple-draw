@@ -8,21 +8,21 @@ import cs355.lab1.Shape;
  *         Time: 12:59 PM
  */
 public class Square extends Shape {
-	
-    public Square(double left, double top, double size) {
-        super.setCenter(left, top);
-        super.setHeight(size);
-        super.setWidth(size);
-        super.setSelectedShape(ShapeEnum.SQUARE);
-    }
 
-    public double getSize() {
-    	assert(super.getHeight() == super.getWidth());
-        return super.getHeight();
-    }
+	public Square(double left, double top, double size) {
+		super.setCenter(left, top);
+		super.setHeight(size);
+		super.setWidth(size);
+		super.setSelectedShape(ShapeEnum.SQUARE);
+	}
 
-    public void setSize(double size) {
-        super.setHeight(size);
-        super.setWidth(size);
-    }
+	public double getSize() {
+		assert (super.getHeight() == super.getWidth());
+		return super.getHeight();
+	}
+
+	public void setSize(double size) {
+		super.setHeight(size);
+		super.setWidth(size);
+	}
 }

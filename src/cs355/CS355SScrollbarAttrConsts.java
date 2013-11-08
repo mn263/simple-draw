@@ -8,7 +8,7 @@ package cs355;
  *
  * @author Talonos
  */
-enum CS355SScrollbarAttrConsts
+enum CS355SScrollbarAttrConsts 
 {
     V_SCROLL_BAR, H_SCROLL_BAR, MIN, MAX, KNOB, POSIT
 }

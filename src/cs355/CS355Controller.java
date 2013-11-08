@@ -1,4 +1,3 @@
-// CHECKSTYLE:OFF
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -6,12 +5,13 @@
 package cs355;
 
 import java.awt.Color;
+import java.util.Iterator;
 
 /**
  *
  * @author Talonos
  */
-public interface CS355Controller
+public interface CS355Controller 
 {
 
     void colorButtonHit(Color c);
@@ -32,5 +32,8 @@ public interface CS355Controller
     public void hScrollbarChanged(int value);
 
     public void vScrollbarChanged(int value);
+
+    public void toggle3DModelDisplay();
+
+    public void keyPressed(Iterator<Integer> iterator);
 }
-//CHECKSTYLE:ON

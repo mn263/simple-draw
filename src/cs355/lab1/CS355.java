@@ -13,19 +13,19 @@ import java.awt.*;
  */
 public class CS355 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Mouse mouseListener = new Mouse();
-        GUIFunctions.createCS355Frame(Controller.inst(), View.inst(), mouseListener, mouseListener);
-        GUIFunctions.refresh();
-        GUIFunctions.changeSelectedColor(Color.WHITE);
-        GUIFunctions.setHScrollBarMin(0);
-        GUIFunctions.setVScrollBarMin(0);
-        GUIFunctions.setHScrollBarMax(512);
-        GUIFunctions.setVScrollBarMax(512);
-        GUIFunctions.setHScrollBarKnob(256);
-        GUIFunctions.setVScrollBarKnob(256);
-    }
+	/**
+	 * @param args the command line arguments
+	 */
+	public static void main(String[] args) {
+		Mouse mouseListener = new Mouse();
+		GUIFunctions.createCS355Frame(Controller.inst(), View.inst(), mouseListener, mouseListener);
+		GUIFunctions.refresh();
+		GUIFunctions.changeSelectedColor(Color.WHITE);
+		GUIFunctions.setHScrollBarMin(0);
+		GUIFunctions.setVScrollBarMin(0);
+		GUIFunctions.setHScrollBarMax(512);
+		GUIFunctions.setVScrollBarMax(512);
+		GUIFunctions.setHScrollBarKnob(256);
+		GUIFunctions.setVScrollBarKnob(256);
+	}
 }

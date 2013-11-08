@@ -9,56 +9,57 @@ import java.awt.*;
  */
 public abstract class Shape {
 
-    private Color color;
-    private Point center;
-    private double height;
-    private double width;
-    private double rotationDegree = 0;
-    private ShapeEnum SELECTEDSHAPE;
-    public enum ShapeEnum {
-        CIRCLE, ELLIPSE, LINE, RECTANGLE, SQUARE, TRIANGLE
-    }
+	private Color color;
+	private Point center;
+	private double height;
+	private double width;
+	private double rotationDegree = 0;
+	private ShapeEnum SELECTEDSHAPE;
 
-    public Color getColor() {
-        return color;
-    }
-
-    public void setColor(Color color) {
-        this.color = color;
-    }
-
-    public  ShapeEnum getSelectedShape() {
-        return SELECTEDSHAPE;
-    }
-
-    public void setSelectedShape(ShapeEnum shape) {
-        this.SELECTEDSHAPE = shape;
-    }
-
-    public double getHeight() {
-    	if((getSelectedShape() == ShapeEnum.TRIANGLE) || (getSelectedShape() == ShapeEnum.LINE)) {
-    		return 0.00;
-    	} else {
-    		return height;
-    	}
+	public enum ShapeEnum {
+		CIRCLE, ELLIPSE, LINE, RECTANGLE, SQUARE, TRIANGLE
 	}
-    
-    public void setHeight(double size) {
-    	this.height = size;
-    }
-    
-    public void setWidth(double width) {
-    	this.width = width;
-    }
-    
-    public double getWidth() {
-    	if((getSelectedShape() == ShapeEnum.TRIANGLE) || (getSelectedShape() == ShapeEnum.LINE)) {
-    		return 0.00;
-    	} else {
-    		return width;
-    	}
+
+	public Color getColor() {
+		return color;
 	}
-    
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
+	public ShapeEnum getSelectedShape() {
+		return SELECTEDSHAPE;
+	}
+
+	public void setSelectedShape(ShapeEnum shape) {
+		this.SELECTEDSHAPE = shape;
+	}
+
+	public double getHeight() {
+		if ((getSelectedShape() == ShapeEnum.TRIANGLE) || (getSelectedShape() == ShapeEnum.LINE)) {
+			return 0.00;
+		} else {
+			return height;
+		}
+	}
+
+	public void setHeight(double size) {
+		this.height = size;
+	}
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+	public double getWidth() {
+		if ((getSelectedShape() == ShapeEnum.TRIANGLE) || (getSelectedShape() == ShapeEnum.LINE)) {
+			return 0.00;
+		} else {
+			return width;
+		}
+	}
+
 	public Point getCenter() {
 		return center;
 	}
@@ -74,9 +75,9 @@ public abstract class Shape {
 	public void setRotationDegree(double rotationDegree) {
 		this.rotationDegree = rotationDegree;
 	}
-	
+
 	public boolean isOval() {
-		if((getSelectedShape() == ShapeEnum.ELLIPSE) || (getSelectedShape() == ShapeEnum.CIRCLE)) {
+		if ((getSelectedShape() == ShapeEnum.ELLIPSE) || (getSelectedShape() == ShapeEnum.CIRCLE)) {
 			return true;
 		} else {
 			return false;
@@ -84,21 +85,23 @@ public abstract class Shape {
 	}
 
 	public boolean isBox() {
-		if((getSelectedShape() == ShapeEnum.RECTANGLE) || (getSelectedShape() == ShapeEnum.SQUARE)) {
+		if ((getSelectedShape() == ShapeEnum.RECTANGLE) || (getSelectedShape() == ShapeEnum.SQUARE)) {
 			return true;
 		} else {
 			return false;
 		}
 	}
+
 	public boolean isTriangle() {
-		if(getSelectedShape() == ShapeEnum.TRIANGLE) {
+		if (getSelectedShape() == ShapeEnum.TRIANGLE) {
 			return true;
 		} else {
 			return false;
 		}
 	}
+
 	public boolean isLine() {
-		if(getSelectedShape() == ShapeEnum.LINE) {
+		if (getSelectedShape() == ShapeEnum.LINE) {
 			return true;
 		} else {
 			return false;

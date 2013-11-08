@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  *
  * @author Talonos
  */
-class RedrawRoutine implements Runnable
+class RedrawRoutine implements Runnable 
 {
     //Things used to draw.
     private Canvas screenCanvas;
@@ -29,19 +29,19 @@ class RedrawRoutine implements Runnable
     private Graphics graphics;
     private BufferedImage bufImage;
     private GraphicsConfiguration gc;
-
+    
     ViewRefresher viewRefresher;
-
+    
     //If you ever need to make sure the view is not being redrawn while you do work under the hood, 
     //you can use this semaphore.
     public Semaphore isDrawing = new Semaphore(1);
-
+    
     //Private constants.
     private static final double FRAME_TIME = 200;
-
+    
     private static RedrawRoutine instance;
-
-    public static RedrawRoutine inst()
+    
+    public static RedrawRoutine inst() 
     {
         if (instance == null)
         {
@@ -49,35 +49,35 @@ class RedrawRoutine implements Runnable
         }
         return instance;
     }
-
+    
 
     private RedrawRoutine()
     {
         //Set up the drawing area.
         //screenCanvas.setIgnoreRepaint(true);
     }
-
+    
     public void initialize(Canvas s, ViewRefresher v)
     {
         viewRefresher = v;
         screenCanvas = s;
         screenCanvas.createBufferStrategy(2);
         buffer = screenCanvas.getBufferStrategy();
-
+        
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         GraphicsDevice gd = ge.getDefaultScreenDevice();
         gc = gd.getDefaultConfiguration();
     }
 
     @Override
-    public void run()
+    public void run() 
     {
         double time = System.currentTimeMillis();
-        try
+        try 
         {
             isDrawing.acquire();
-        }
-        catch (InterruptedException ex)
+        } 
+        catch (InterruptedException ex) 
         {
             Logger.getLogger(RedrawRoutine.class.getName()).log(Level.SEVERE, null, ex);
             System.exit(-1);
@@ -95,19 +95,19 @@ class RedrawRoutine implements Runnable
                 }
                 //When game logic relenquishes control, move forward.
                 isDrawing.acquire();
-
+                
                 //Refresh the page, making sure to count how long it takes.
                 time = System.currentTimeMillis();
-
+                
                 refreshView();
-
+                
                 time = System.currentTimeMillis()-time;
-
+                
                 //Display the time. Commented out, but you can see how long it takes to
                 //render a frame by uncommenting the following line:
-
+                
                 //g2d.drawString(""+time, 10, 10);
-
+                
                 //Draw the image to the buffer.
                 graphics = buffer.getDrawGraphics();
                 graphics.drawImage(bufImage, 0, 0, null);
@@ -120,7 +120,7 @@ class RedrawRoutine implements Runnable
                     buffer.show();
                 }
             }
-            catch (InterruptedException ex)
+            catch (InterruptedException ex) 
             {
                 Logger.getLogger(RedrawRoutine.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -130,28 +130,28 @@ class RedrawRoutine implements Runnable
     /**
      * Refreshes the view. It does this by calling the refresh method on the provided viewRefresher.
      */
-    public void refreshView()
+    public void refreshView() 
     {
         //Get an image, and the graphics of that image.
         bufImage = gc.createCompatibleImage(screenCanvas.getWidth(), screenCanvas.getHeight());
         g2d = bufImage.createGraphics();
         viewRefresher.refreshView(g2d);
+        
+                //Display the time. Commented out, but you can see how long it takes to
+                //render a frame by uncommenting the following line:
+                
+                //g2d.drawString(""+time, 10, 10);
+                
+                //Draw the image to the buffer.
+                graphics = buffer.getDrawGraphics();
+                graphics.drawImage(bufImage, 0, 0, null);
 
-        //Display the time. Commented out, but you can see how long it takes to
-        //render a frame by uncommenting the following line:
-
-        //g2d.drawString(""+time, 10, 10);
-
-        //Draw the image to the buffer.
-        graphics = buffer.getDrawGraphics();
-        graphics.drawImage(bufImage, 0, 0, null);
-
-        //I don't know what this is for, but it's important. I
-        //got it from sample code online, and still need to figure out
-        //what this code's purpose is.
-        if(!buffer.contentsLost())
-        {
-            buffer.show();
-        }
+                //I don't know what this is for, but it's important. I
+                //got it from sample code online, and still need to figure out
+                //what this code's purpose is.
+                if(!buffer.contentsLost())
+                {
+                    buffer.show();
+                }
     }
 }

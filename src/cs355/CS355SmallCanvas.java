@@ -9,12 +9,16 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 
 /**
+ *
  * @author Talonos
  */
-class CS355SmallCanvas extends Canvas {
+class CS355SmallCanvas extends Canvas
+{
     @Override
-    public void paint(Graphics graphics) {
-        if (CS355Frame.isInitialized()) {
+    public void paint(Graphics graphics)
+    {
+        if (CS355Frame.isInitialized())
+        {
             CS355Frame.inst().setSelectedColor();
         }
     }

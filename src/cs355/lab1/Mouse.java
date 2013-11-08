@@ -13,39 +13,39 @@ import java.awt.event.MouseMotionListener;
  */
 public class Mouse implements MouseListener, MouseMotionListener {
 
-    @Override
-    public void mouseClicked(MouseEvent e) {
-        GUIFunctions.refresh();
-    }
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		GUIFunctions.refresh();
+	}
 
-    @Override
-    public void mousePressed(MouseEvent e) {
-            Controller.inst().mousePressedHandler(e);
-    }
+	@Override
+	public void mousePressed(MouseEvent e) {
+		Controller.inst().mousePressedHandler(e);
+	}
 
-    @Override
-    public void mouseReleased(MouseEvent e) {
-    	//Resets the Controller.startingPoint to (0,0)
-        Controller.inst().setStartingPoint(0, 0);
-    }
+	@Override
+	public void mouseReleased(MouseEvent e) {
+		//Resets the Controller.startingPoint to (0,0)
+		Controller.inst().setStartingPoint(0, 0);
+	}
 
-    @Override
-    public void mouseEntered(MouseEvent e) {
+	@Override
+	public void mouseEntered(MouseEvent e) {
 //        throw new UnsupportedOperationException("This method is not implemented");
-    }
+	}
 
-    @Override
-    public void mouseExited(MouseEvent e) {
+	@Override
+	public void mouseExited(MouseEvent e) {
 //        throw new UnsupportedOperationException("This method is not implemented");
-    }
+	}
 
-    @Override
-    public void mouseDragged(MouseEvent e) {
-        Controller.inst().mouseDraggedHandler(e);
-    }
+	@Override
+	public void mouseDragged(MouseEvent e) {
+		Controller.inst().mouseDraggedHandler(e);
+	}
 
-    @Override
-    public void mouseMoved(MouseEvent e) {
+	@Override
+	public void mouseMoved(MouseEvent e) {
 //        throw new UnsupportedOperationException("This method is not implemented");
-    }
+	}
 }
