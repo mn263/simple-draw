@@ -1,4 +1,4 @@
-package modelHelpers;
+package cs355.modelHelpers;
 
 import cs355.lab1.Shape;
 import cs355.lab1.ShapeClasses.*;

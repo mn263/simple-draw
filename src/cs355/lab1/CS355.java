@@ -4,7 +4,7 @@
  */
 package cs355.lab1;
 
-import cs355.GUIFunctions;
+import cs355.*;
 
 import java.awt.*;
 

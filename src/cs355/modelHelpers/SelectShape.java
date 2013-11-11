@@ -1,6 +1,6 @@
-package modelHelpers;
+package cs355.modelHelpers;
 
-import cs355.GUIFunctions;
+import cs355.*;
 import cs355.lab1.Model;
 import cs355.lab1.Point;
 import cs355.lab1.Shape;

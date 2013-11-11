@@ -1,11 +1,11 @@
 package cs355.lab1;
 
-import cs355.GUIFunctions;
+import cs355.*;
 import cs355.lab1.Controller.ShapeEnum;
 import cs355.lab1.ShapeClasses.*;
-import modelHelpers.AddShape;
-import modelHelpers.SelectShape;
-import modelHelpers.UpdateShape;
+import cs355.modelHelpers.SelectShape;
+import cs355.modelHelpers.UpdateShape;
+import cs355.modelHelpers.AddShape;
 
 import java.util.Stack;
 

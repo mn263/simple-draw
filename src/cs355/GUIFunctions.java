@@ -120,8 +120,7 @@ public class GUIFunctions
      * @param mouseMotionListener The Mouse Motion Listener that will be sent events from the canvas.
      */
     public static void createCS355Frame(CS355Controller inst, ViewRefresher viewRefresher, 
-            MouseListener mouseListener, MouseMotionListener mouseMotionListener) 
-    {
-        CS355Frame.createCS355Frame(inst, viewRefresher, mouseListener, mouseMotionListener);
+            MouseListener mouseListener, MouseMotionListener mouseMotionListener) {
+		CS355Frame.createCS355Frame(inst, viewRefresher, mouseListener, mouseMotionListener);
     }
 }

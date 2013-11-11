@@ -1,4 +1,4 @@
-package viewHelpers;
+package cs355.lab1.viewHelpers;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;

@@ -1,6 +1,6 @@
 package cs355.lab1;
 
-import cs355.GUIFunctions;
+import cs355.*;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -16,6 +16,7 @@ public class Controller implements cs355.CS355Controller {
 
 	private static Point startingPoint;
 	private static Controller instance;
+	private static HouseController houseController = new HouseController();
 
 	public static Controller inst() {
 		if (instance == null) {
@@ -212,14 +213,17 @@ public class Controller implements cs355.CS355Controller {
 
 	@Override
 	public void toggle3DModelDisplay() {
-		//To change body of implemented methods use File | Settings | File Templates.
-		// TODO: implement this method
+		System.out.println("toggle display");
+		houseController.update();
 	}
 
 	@Override
 	public void keyPressed(Iterator<Integer> iterator) {
-		//To change body of implemented methods use File | Settings | File Templates.
-		// TODO: implement this method
+		while (iterator.hasNext()) {
+			Integer i = iterator.next();
+			houseController.updateKeyboard(i);
+			System.out.println(i);
+		}
 	}
 
 	public void mouseDraggedHandler(MouseEvent e) {

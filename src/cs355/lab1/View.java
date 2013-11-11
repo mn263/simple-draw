@@ -4,8 +4,7 @@ import cs355.ViewRefresher;
 import cs355.lab1.Shape.ShapeEnum;
 import cs355.lab1.ShapeClasses.Line;
 import cs355.lab1.ShapeClasses.Triangle;
-import viewHelpers.ShapeDraw;
-import viewHelpers.ShapeHighlight;
+import cs355.lab1.viewHelpers.*;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
