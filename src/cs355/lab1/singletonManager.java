@@ -5,7 +5,7 @@ import cs355.*;
 import java.awt.*;
 
 public class singletonManager {
-	private static singletonManager instance = null;
+	private static singletonManager instance;
 
 	protected singletonManager() {
 	}
@@ -19,8 +19,8 @@ public class singletonManager {
 
 	public Point centerBeforeDrag;
 	private Color selectedColor;
-	public boolean isDragging = false;
-	private static Shape selectedShape = null;
+	public boolean isDragging;
+	private static Shape selectedShape;
 	private Point topLeftOfView = new Point(0, 0);
 
 	public final double TWENTYFIVEPERCENT = .25;
@@ -65,14 +65,10 @@ public class singletonManager {
 	}
 
 	public void setTopOfView(double newMiddle) {
-//        TODO: add checks to make sure zooming won't be off the screen at the newMiddle
-		System.out.println("TOP ----> " + topLeftOfView.getY());
 		topLeftOfView.setY(newMiddle);
 	}
 
 	public void setLeftSideOfView(double newMiddle) {
-//        TODO: add checks to make sure zooming won't be off the screen at the newMiddle
-		System.out.println("LEFT ---> " + topLeftOfView.getX());
 		topLeftOfView.setX(newMiddle);
 	}
 

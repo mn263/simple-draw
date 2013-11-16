@@ -30,7 +30,7 @@ public class Model {
 		return instance;
 	}
 
-	//
+//
 //  ADD SHAPES
 //
 	public void addShape(ShapeEnum operationSelected, double x, double y) {
@@ -62,7 +62,7 @@ public class Model {
 		}
 	}
 
-	//
+//
 //    UPDATE SHAPES
 //
 	public void updateShape(ShapeEnum operationSelected, double mouseX, double mouseY, int x, int y) {
@@ -93,7 +93,7 @@ public class Model {
 		Triangle.cornerTwo = null;
 	}
 
-	//
+//
 //  SELECT SHAPE
 //
 	public void selectShape(double mouseX, double mouseY) {

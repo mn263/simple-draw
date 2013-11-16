@@ -7,6 +7,8 @@ import java.awt.event.MouseEvent;
 import java.awt.geom.AffineTransform;
 import java.util.Iterator;
 
+import static cs355.GUIFunctions.refresh;
+
 /**
  * @author mn263
  *         Date: 9/13/13
@@ -23,6 +25,10 @@ public class Controller implements cs355.CS355Controller {
 			instance = new Controller();
 		}
 		return instance;
+	}
+
+	public HouseController getHouseController() {
+		return houseController;
 	}
 
 	private ShapeEnum operationSelected = ShapeEnum.LINE;
@@ -46,7 +52,7 @@ public class Controller implements cs355.CS355Controller {
 		if (singletonManager.inst().getselectedShape() != null) {
 			singletonManager.inst().getselectedShape().setColor(c);
 		}
-		GUIFunctions.refresh();
+		refresh();
 	}
 
 	@Override
@@ -105,9 +111,7 @@ public class Controller implements cs355.CS355Controller {
 		}
 		updateScrollBarSizes();
 		setScrollBarPositionIn(zoomValue);
-//        GUIFunctions.setHScrollBarPosit(0);
-//        GUIFunctions.setVScrollBarPosit(0);
-		GUIFunctions.refresh();
+		refresh();
 	}
 
 
@@ -129,7 +133,7 @@ public class Controller implements cs355.CS355Controller {
 		sm.setTopOfView(sm.getTopOfView() / 2);
 		updateScrollBarSizes();
 		setScrollBarPositionOut(zoomValue);
-		GUIFunctions.refresh();
+		refresh();
 	}
 
 	private void setScrollBarPositionOut(double zoomValue) {
@@ -202,19 +206,19 @@ public class Controller implements cs355.CS355Controller {
 	@Override
 	public void hScrollbarChanged(int value) {
 		singletonManager.inst().setLeftSideOfView(value);
-		GUIFunctions.refresh();
+		refresh();
 	}
 
 	@Override
 	public void vScrollbarChanged(int value) {
 		singletonManager.inst().setTopOfView(value);
-		GUIFunctions.refresh();
+		refresh();
 	}
 
 	@Override
 	public void toggle3DModelDisplay() {
-		System.out.println("toggle display");
 		houseController.update();
+		refresh();
 	}
 
 	@Override
@@ -222,8 +226,8 @@ public class Controller implements cs355.CS355Controller {
 		while (iterator.hasNext()) {
 			Integer i = iterator.next();
 			houseController.updateKeyboard(i);
-			System.out.println(i);
 		}
+		refresh();
 	}
 
 	public void mouseDraggedHandler(MouseEvent e) {
@@ -252,7 +256,7 @@ public class Controller implements cs355.CS355Controller {
 		if (operationSelected != ShapeEnum.TRIANGLE) {
 			Model.inst().notTriangle();
 		}
-		GUIFunctions.refresh();
+		refresh();
 	}
 
 	private boolean isOperationAShape() {

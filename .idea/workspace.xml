@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8817073e-d734-422c-9fce-2ea104d9b873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs355/HouseController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/modelHelpers/AddShape.java" afterPath="$PROJECT_DIR$/src/cs355/modelHelpers/AddShape.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/modelHelpers/SelectShape.java" afterPath="$PROJECT_DIR$/src/cs355/modelHelpers/SelectShape.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/modelHelpers/UpdateShape.java" afterPath="$PROJECT_DIR$/src/cs355/modelHelpers/UpdateShape.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/viewHelpers/ShapeDraw.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/viewHelpers/ShapeDraw.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/viewHelpers/ShapeHighlight.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/viewHelpers/ShapeHighlight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/lab1/CS355.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/CS355.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/CS355Canvas.java" afterPath="$PROJECT_DIR$/src/cs355/CS355Canvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/CS355Frame.java" afterPath="$PROJECT_DIR$/src/cs355/CS355Frame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs355/Matrix4D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs355/MatrixUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/lab1/Controller.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/GUIFunctions.java" afterPath="$PROJECT_DIR$/src/cs355/GUIFunctions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/HouseController.java" afterPath="$PROJECT_DIR$/src/cs355/HouseController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/lab1/Model.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/lab1/Mouse.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/Mouse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/RedrawRoutine.java" afterPath="$PROJECT_DIR$/src/cs355/RedrawRoutine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleDraw.iml" afterPath="$PROJECT_DIR$/SimpleDraw.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/lab1/View.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/View.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs355/lab1/singletonManager.java" afterPath="$PROJECT_DIR$/src/cs355/lab1/singletonManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -25,29 +16,29 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383792535776" ignored="false" />
     <file path="/sample.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383792533756" ignored="false" />
-    <file path="/Dummy.txt" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384208916493" ignored="false" />
+    <file path="/Dummy.txt" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384629504066" ignored="false" />
     <file path="/a.xml" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383790455679" ignored="false" />
     <file path="/CS355Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383792421255" ignored="false" />
     <file path="/HouseModel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383862817971" ignored="false" />
-    <file path="/Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384210023249" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/shared/DataImporter.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874602477" ignored="false" />
+    <file path="/Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460663908" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/DataImporter.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/test/servertester/views/IView.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874754019" ignored="false" />
     <file path="/IView.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874678867" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Database.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874936811" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/shared/IndexerData.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874936811" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Records.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Batches.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/test/server/ServerUnitTests.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944551" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/Server.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Fields.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Users.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/IndexerData.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Records.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Batches.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/test/server/ServerUnitTests.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/Server.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Fields.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Users.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/client/ClientCommunicator.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874951118" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/servertester/controllers/Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/ServerException.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874936811" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/build.xml" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874951118" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/build.xml" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076369" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/client/ClientException.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874936811" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/DatabaseAccessUtils.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874936811" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Projects.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/back_end/server/database/Projects.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/shared/communication/params/GetSampleImage_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/shared/communication/params/DownloadBatch_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/shared/communication/params/ValidateUser_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874944550" ignored="false" />
@@ -81,10 +72,10 @@
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/client/servertester/controllers/IController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874951118" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/back_end/client/servertester/GuiTester.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383874951118" ignored="false" />
     <file path="/fragment.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383875080926" ignored="false" />
-    <file path="/View.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383875713991" ignored="false" />
+    <file path="/View.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384632327404" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_1_NoTransforms/one/DrawingComponent.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383877800128" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_1_NoTransforms/one/Drawing.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383878916107" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_1_NoTransforms/one/DrawingFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880744113" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_1_NoTransforms/one/DrawingFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384458925723" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_2_Scaling/two/Drawing.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383877822853" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_2_Scaling/two/DrawingFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383877822853" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/example/DoubleSpongeBob_2_Scaling/two/DrawingComponent.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383877822853" ignored="false" />
@@ -101,21 +92,83 @@
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/frame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383883100088" ignored="false" />
     <file path="/frame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383884009206" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/viewRefresher.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383879610666" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/view.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880796429" ignored="false" />
-    <file path="/view.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880796429" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/view.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459070994" ignored="false" />
+    <file path="/view.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459093779" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/ViewRefresher.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880744113" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/controller/Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880919286" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/controller/GuiController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880931563" ignored="false" />
-    <file path="/GuiController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383880924605" ignored="false" />
-    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/RedrawRoutine.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383883976074" ignored="false" />
-    <file path="/RedrawRoutine.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383883492241" ignored="false" />
+    <file path="/GuiController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459112750" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/RedrawRoutine.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460409373" ignored="false" />
+    <file path="/RedrawRoutine.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384629779603" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/Canvas.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383883913620" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/GuiCanvas.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383883953395" ignored="false" />
     <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/Frame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1383930448633" ignored="false" />
     <file path="/Model.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384109817852" ignored="false" />
-    <file path="/HouseController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384210770958" ignored="false" />
+    <file path="/HouseController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384631484730" ignored="false" />
     <file path="/CS355LWJGL.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384111107168" ignored="false" />
-    <file path="/a.dummy" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384209265782" ignored="false" />
+    <file path="/a.dummy" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384629973575" ignored="false" />
+    <file path="/Matrix.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384297075678" ignored="false" />
+    <file path="/MatrixUtils.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384397020815" ignored="false" />
+    <file path="/Matrix4D.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384305407948" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/GuiSearch.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460972731" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/GUIFunctions.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459424051" ignored="false" />
+    <file path="/GuiSearch.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461646038" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/GuiController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459112750" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/GuiFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460220289" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/View.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459093779" ignored="false" />
+    <file path="/GUIFunctions.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459763026" ignored="false" />
+    <file path="/GuiFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460191209" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/view/GUIFunctions.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384459780223" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/IView.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/ServerOp.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/TestView.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/BasePanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/Constants.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/TextPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/ClientCommunicator.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/ParamPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/SettingsPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/views/IndexerServerTesterFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/controllers/Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460614443" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/controllers/IController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/ClientException.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/GuiTester.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460528979" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/GetSampleImage_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/DownloadBatch_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/ValidateUser_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/SubmitBatch_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/GetProjects_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/GetFields_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/model/UserDTO.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/results/Search_Result.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547686" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/results/GetSampleImage_Result.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/results/DownloadBatch_Result.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/model/ProjectDTO.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/results/ValidateUser_Result.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/model/RecordDTO.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/results/GetProjects_Result.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/model/FieldDTO.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/results/GetFields_Result.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/model/BatchDTO.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/shared/communication/params/Search_Params.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460547687" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/GuiSearch.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384460972731" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/servertester/Mouse.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461058326" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/IView.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384462635248" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/ServerOp.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/TestView.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/BasePanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461501754" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/Constants.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/TextPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/ParamPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/Mouse.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/SettingsPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384463115870" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/IndexerServerTesterFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/controllers/Controller.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/controllers/IController.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461076030" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/GuiSearch.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461886320" ignored="false" />
+    <file path="$PROJECT_DIR$/../record-indexer/src/front_end/client/gui_searcher/views/GuiSearchFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384463124487" ignored="false" />
+    <file path="/GuiSearchFrame.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384461749661" ignored="false" />
+    <file path="/SettingsPanel.java" changelist="8817073e-d734-422c-9fce-2ea104d9b873" time="1384463092536" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,10 +230,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CS355.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs355/lab1/CS355.java">
+      <file leaf-file-name="RedrawRoutine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs355/RedrawRoutine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+            <state line="36" column="40" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -189,34 +242,25 @@
       <file leaf-file-name="Controller.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cs355/lab1/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="286" column="17" selection-start="8403" selection-end="8403" vertical-scroll-proportion="0.0">
+            <state line="138" column="66" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cs355/lab1/Model.java">
+      <file leaf-file-name="View.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cs355/lab1/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="37" column="8" selection-start="862" selection-end="862" vertical-scroll-proportion="0.3578732">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CS355Controller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs355/CS355Controller.java">
+      <file leaf-file-name="ShapeDraw.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs355/lab1/viewHelpers/ShapeDraw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="16" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CS355Frame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs355/CS355Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="335" column="24" selection-start="15601" selection-end="15601" vertical-scroll-proportion="0.0">
+            <state line="51" column="30" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -225,16 +269,7 @@
       <file leaf-file-name="HouseController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cs355/HouseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cs355/HouseModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+            <state line="116" column="137" selection-start="4410" selection-end="4410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -259,29 +294,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/cs355/WireFrame.java" />
-        <option value="$PROJECT_DIR$/src/cs355/lab1/View.java" />
-        <option value="$PROJECT_DIR$/src/cs355/GUIFunctions.java" />
-        <option value="$PROJECT_DIR$/src/cs355/CS355Frame.java" />
-        <option value="$PROJECT_DIR$/src/cs355/lab1/Mouse.java" />
         <option value="$PROJECT_DIR$/src/cs355/lab1/CS355.java" />
-        <option value="$PROJECT_DIR$/src/cs355/RedrawRoutine.java" />
         <option value="$PROJECT_DIR$/src/cs355/CS355Canvas.java" />
-        <option value="$PROJECT_DIR$/src/cs355/lab1/Model.java" />
-        <option value="$PROJECT_DIR$/src/cs355/lab1/singletonManager.java" />
         <option value="$PROJECT_DIR$/src/cs355/modelHelpers/SelectShape.java" />
         <option value="$PROJECT_DIR$/src/cs355/projectFourFiles/Controller.java" />
         <option value="$PROJECT_DIR$/src/cs355/projectFourFiles/HouseController.java" />
         <option value="$PROJECT_DIR$/src/cs355/projectFourFiles/CS355LWJGL.java" />
+        <option value="$PROJECT_DIR$/src/cs355/lab1/Model.java" />
+        <option value="$PROJECT_DIR$/src/cs355/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/cs355/Model3D.java" />
+        <option value="$PROJECT_DIR$/src/cs355/Matrix4D.java" />
         <option value="$PROJECT_DIR$/src/cs355/lab1/Controller.java" />
+        <option value="$PROJECT_DIR$/src/cs355/RedrawRoutine.java" />
+        <option value="$PROJECT_DIR$/src/cs355/lab1/singletonManager.java" />
+        <option value="$PROJECT_DIR$/src/cs355/MatrixUtils.java" />
         <option value="$PROJECT_DIR$/src/cs355/HouseController.java" />
+        <option value="$PROJECT_DIR$/src/cs355/lab1/View.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="246" />
+    <option name="x" value="72" />
     <option name="y" value="24" />
-    <option name="width" value="1354" />
+    <option name="width" value="1527" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -347,6 +382,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -427,10 +463,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleDraw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleDraw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs355" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewHelpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleDraw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleDraw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs355" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShapeClasses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,7 +529,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.general" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lwjgl-2.9.0/jar/lzma.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -592,29 +679,53 @@
       <created>1383872432405</created>
       <updated>1383872432405</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first real commit&#10;">
+      <created>1384210942505</created>
+      <updated>1384210942505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="246" y="24" width="1354" height="876" extended-state="4" />
+    <frame x="72" y="24" width="1527" height="876" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29258242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975152" sideWeight="0.6010568" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2541209" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25231177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39697802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32628798" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24808575" sideWeight="0.7074176" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14874916" sideWeight="0.7074176" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975152" sideWeight="0.6010568" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -702,108 +813,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cs355/modelHelpers/AddShape.java">
+    <entry file="file://$PROJECT_DIR$/src/cs355/Matrix4D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14705883" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/modelHelpers/SelectShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06993007" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/CS355Frame.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/CS355SmallCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="194" selection-end="225" vertical-scroll-proportion="0.3146853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/modelHelpers/UpdateShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="102" selection-end="102" vertical-scroll-proportion="0.02097902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/CS355Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.3846154">
+        <state line="48" column="4" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#333#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/WireFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.14914773">
+        <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/CS355.java">
+    <entry file="file://$PROJECT_DIR$/src/cs355/Line3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/CS355Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="335" column="24" selection-start="15601" selection-end="15601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/Java/jdk1.7.0_45/jre/lib/jfxrt.jar!/com/sun/javafx/scene/control/Keystroke.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="171" selection-end="171" vertical-scroll-proportion="0.19788918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/CS355Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.2387268">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs355/HouseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="-0.089020774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/CS355.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/GUIFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/CS355Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="6" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/CS355Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/Java/jdk1.7.0_45/src.zip!/java/awt/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="13" selection-start="857" selection-end="857" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/RedrawRoutine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="40" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/singletonManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="21" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/MatrixUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.39628482">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs355/HouseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="116" column="137" selection-start="4410" selection-end="4410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs355/lab1/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="17" selection-start="8403" selection-end="8403" vertical-scroll-proportion="0.0">
+        <state line="138" column="66" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/viewHelpers/ShapeDraw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="51" column="30" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs355/lab1/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="8" selection-start="862" selection-end="862" vertical-scroll-proportion="0.3578732">
           <folding />
         </state>
       </provider>

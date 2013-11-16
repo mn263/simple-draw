@@ -24,7 +24,9 @@ class RedrawRoutine implements Runnable {
 	private GraphicsConfiguration gc;
 
 	ViewRefresher viewRefresher;
-
+//	TODO: Clip
+//	TODO: fix color
+//	TODO: drop if outside of view
 	//If you ever need to make sure the view is not being redrawn while you do work under the hood,
 	//you can use this semaphore.
 	public Semaphore isDrawing = new Semaphore(1);
@@ -87,7 +89,7 @@ class RedrawRoutine implements Runnable {
 				time = System.currentTimeMillis() - time;
 
 				//Display the time. Commented out, but you can see how long it takes to
-				//render a frame by uncommenting the following line:
+				//getHouse a frame by uncommenting the following line:
 
 				//g2d.drawString(""+time, 10, 10);
 
@@ -117,7 +119,7 @@ class RedrawRoutine implements Runnable {
 		viewRefresher.refreshView(g2d);
 
 		//Display the time. Commented out, but you can see how long it takes to
-		//render a frame by uncommenting the following line:
+		//getHouse a frame by uncommenting the following line:
 
 		//g2d.drawString(""+time, 10, 10);
 

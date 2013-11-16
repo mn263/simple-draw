@@ -1,5 +1,6 @@
 package cs355.lab1;
 
+import cs355.HouseController;
 import cs355.ViewRefresher;
 import cs355.lab1.Shape.ShapeEnum;
 import cs355.lab1.ShapeClasses.Line;
@@ -8,6 +9,7 @@ import cs355.lab1.viewHelpers.*;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
+import java.util.ArrayList;
 
 /**
  * @author mn263
@@ -21,7 +23,7 @@ public class View implements ViewRefresher {
 
 	private static View instance;
 
-	static View inst() {
+	public static View inst() {
 		if (instance == null) {
 			instance = new View();
 		}
@@ -33,6 +35,16 @@ public class View implements ViewRefresher {
 		for (cs355.lab1.Shape shape : Model.inst().shapeStack) {
 			g2d.setColor(shape.getColor());
 			drawShape(shape, g2d);
+		}
+		HouseController houseController = Controller.inst().getHouseController();
+		if (houseController.showHouse()) {
+			Color currentColor = g2d.getColor();
+			g2d.setColor(Color.blue);
+			ArrayList<Line> houseLines = houseController.getHouse();
+			for (Line line : houseLines) {
+				drawShape(line, g2d);
+			}
+			g2d.setColor(currentColor);
 		}
 		if (singletonManager.inst().getselectedShape() != null) {
 			highlightShape(g2d);
