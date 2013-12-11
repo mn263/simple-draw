@@ -5,6 +5,7 @@ import cs355.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.geom.AffineTransform;
+import java.awt.image.BufferedImage;
 import java.util.Iterator;
 
 import static cs355.GUIFunctions.refresh;
@@ -228,6 +229,46 @@ public class Controller implements cs355.CS355Controller {
 			houseController.updateKeyboard(i);
 		}
 		refresh();
+	}
+
+	@Override
+	public void doEdgeDetection() {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void doSharpen() {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void doMedianBlur() {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void doUniformBlur() {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void doChangeContrast(int contrastAmountNum) {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void doChangeBrightness(int brightnessAmountNum) {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void doLoadImage(BufferedImage openImage) {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void toggleBackgroundDisplay() {
+		//TODO: change body of implemented methods use File | Settings | File Templates.
 	}
 
 	public void mouseDraggedHandler(MouseEvent e) {

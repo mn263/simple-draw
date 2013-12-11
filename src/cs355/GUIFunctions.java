@@ -63,11 +63,11 @@ public class GUIFunctions
     /**
      * Changes the amount the horizontal scroll bar returns when it is all the way at the left.
      * Important: See setHScrollBarKnob for further clarification!
-     * @param newMin the new value to return when the horizontal scrollbar is all the way at the left.
+     * @param newMax the new value to return when the horizontal scrollbar is all the way at the left.
      */
-    public static void setHScrollBarMax(int newMin)
+    public static void setHScrollBarMax(int newMax)
     {
-        CS355Frame.inst().setScrollAttribute(CS355SScrollbarAttrConsts.H_SCROLL_BAR, CS355SScrollbarAttrConsts.MAX, newMin);
+        CS355Frame.inst().setScrollAttribute(CS355SScrollbarAttrConsts.H_SCROLL_BAR, CS355SScrollbarAttrConsts.MAX, newMax);
     }
     
     /**
@@ -120,7 +120,8 @@ public class GUIFunctions
      * @param mouseMotionListener The Mouse Motion Listener that will be sent events from the canvas.
      */
     public static void createCS355Frame(CS355Controller inst, ViewRefresher viewRefresher, 
-            MouseListener mouseListener, MouseMotionListener mouseMotionListener) {
-		CS355Frame.createCS355Frame(inst, viewRefresher, mouseListener, mouseMotionListener);
+            MouseListener mouseListener, MouseMotionListener mouseMotionListener) 
+    {
+        CS355Frame.createCS355Frame(inst, viewRefresher, mouseListener, mouseMotionListener);
     }
 }
